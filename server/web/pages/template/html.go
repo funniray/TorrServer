@@ -5,136 +5,139 @@ import (
 )
 
 //go:embed pages/apple-splash-1125-2436.jpg
-var Applesplash11252436jpg []byte
+var Serverwebpagestemplatepagesapplesplash11252436jpg []byte
 
 //go:embed pages/apple-splash-1136-640.jpg
-var Applesplash1136640jpg []byte
+var Serverwebpagestemplatepagesapplesplash1136640jpg []byte
 
 //go:embed pages/apple-splash-1170-2532.jpg
-var Applesplash11702532jpg []byte
+var Serverwebpagestemplatepagesapplesplash11702532jpg []byte
 
 //go:embed pages/apple-splash-1242-2208.jpg
-var Applesplash12422208jpg []byte
+var Serverwebpagestemplatepagesapplesplash12422208jpg []byte
 
 //go:embed pages/apple-splash-1242-2688.jpg
-var Applesplash12422688jpg []byte
+var Serverwebpagestemplatepagesapplesplash12422688jpg []byte
 
 //go:embed pages/apple-splash-1284-2778.jpg
-var Applesplash12842778jpg []byte
+var Serverwebpagestemplatepagesapplesplash12842778jpg []byte
 
 //go:embed pages/apple-splash-1334-750.jpg
-var Applesplash1334750jpg []byte
+var Serverwebpagestemplatepagesapplesplash1334750jpg []byte
 
 //go:embed pages/apple-splash-1536-2048.jpg
-var Applesplash15362048jpg []byte
+var Serverwebpagestemplatepagesapplesplash15362048jpg []byte
 
 //go:embed pages/apple-splash-1620-2160.jpg
-var Applesplash16202160jpg []byte
+var Serverwebpagestemplatepagesapplesplash16202160jpg []byte
 
 //go:embed pages/apple-splash-1668-2224.jpg
-var Applesplash16682224jpg []byte
+var Serverwebpagestemplatepagesapplesplash16682224jpg []byte
 
 //go:embed pages/apple-splash-1668-2388.jpg
-var Applesplash16682388jpg []byte
+var Serverwebpagestemplatepagesapplesplash16682388jpg []byte
 
 //go:embed pages/apple-splash-1792-828.jpg
-var Applesplash1792828jpg []byte
+var Serverwebpagestemplatepagesapplesplash1792828jpg []byte
 
 //go:embed pages/apple-splash-2048-1536.jpg
-var Applesplash20481536jpg []byte
+var Serverwebpagestemplatepagesapplesplash20481536jpg []byte
 
 //go:embed pages/apple-splash-2048-2732.jpg
-var Applesplash20482732jpg []byte
+var Serverwebpagestemplatepagesapplesplash20482732jpg []byte
 
 //go:embed pages/apple-splash-2160-1620.jpg
-var Applesplash21601620jpg []byte
+var Serverwebpagestemplatepagesapplesplash21601620jpg []byte
 
 //go:embed pages/apple-splash-2208-1242.jpg
-var Applesplash22081242jpg []byte
+var Serverwebpagestemplatepagesapplesplash22081242jpg []byte
 
 //go:embed pages/apple-splash-2224-1668.jpg
-var Applesplash22241668jpg []byte
+var Serverwebpagestemplatepagesapplesplash22241668jpg []byte
 
 //go:embed pages/apple-splash-2388-1668.jpg
-var Applesplash23881668jpg []byte
+var Serverwebpagestemplatepagesapplesplash23881668jpg []byte
 
 //go:embed pages/apple-splash-2436-1125.jpg
-var Applesplash24361125jpg []byte
+var Serverwebpagestemplatepagesapplesplash24361125jpg []byte
 
 //go:embed pages/apple-splash-2532-1170.jpg
-var Applesplash25321170jpg []byte
+var Serverwebpagestemplatepagesapplesplash25321170jpg []byte
 
 //go:embed pages/apple-splash-2688-1242.jpg
-var Applesplash26881242jpg []byte
+var Serverwebpagestemplatepagesapplesplash26881242jpg []byte
 
 //go:embed pages/apple-splash-2732-2048.jpg
-var Applesplash27322048jpg []byte
+var Serverwebpagestemplatepagesapplesplash27322048jpg []byte
 
 //go:embed pages/apple-splash-2778-1284.jpg
-var Applesplash27781284jpg []byte
+var Serverwebpagestemplatepagesapplesplash27781284jpg []byte
 
 //go:embed pages/apple-splash-640-1136.jpg
-var Applesplash6401136jpg []byte
+var Serverwebpagestemplatepagesapplesplash6401136jpg []byte
 
 //go:embed pages/apple-splash-750-1334.jpg
-var Applesplash7501334jpg []byte
+var Serverwebpagestemplatepagesapplesplash7501334jpg []byte
 
 //go:embed pages/apple-splash-828-1792.jpg
-var Applesplash8281792jpg []byte
+var Serverwebpagestemplatepagesapplesplash8281792jpg []byte
 
 //go:embed pages/asset-manifest.json
-var Assetmanifestjson []byte
+var Serverwebpagestemplatepagesassetmanifestjson []byte
 
 //go:embed pages/browserconfig.xml
-var Browserconfigxml []byte
+var Serverwebpagestemplatepagesbrowserconfigxml []byte
 
 //go:embed pages/dlnaicon-120.png
-var Dlnaicon120png []byte
+var Serverwebpagestemplatepagesdlnaicon120png []byte
 
 //go:embed pages/dlnaicon-48.png
-var Dlnaicon48png []byte
+var Serverwebpagestemplatepagesdlnaicon48png []byte
 
 //go:embed pages/favicon-16x16.png
-var Favicon16x16png []byte
+var Serverwebpagestemplatepagesfavicon16x16png []byte
 
 //go:embed pages/favicon-32x32.png
-var Favicon32x32png []byte
+var Serverwebpagestemplatepagesfavicon32x32png []byte
 
 //go:embed pages/favicon.ico
-var Faviconico []byte
+var Serverwebpagestemplatepagesfaviconico []byte
 
 //go:embed pages/icon.png
-var Iconpng []byte
+var Serverwebpagestemplatepagesiconpng []byte
+
+//go:embed pages/index.html
+var Serverwebpagestemplatepagesindexhtml []byte
+
+//go:embed pages/logo.png
+var Serverwebpagestemplatepageslogopng []byte
+
+//go:embed pages/mstile-150x150.png
+var Serverwebpagestemplatepagesmstile150x150png []byte
+
+//go:embed pages/site.webmanifest
+var Serverwebpagestemplatepagessitewebmanifest []byte
+
+//go:embed pages/static/js/2.64714af8.chunk.js
+var Serverwebpagestemplatepagesstaticjs264714af8chunkjs []byte
+
+//go:embed pages/static/js/2.64714af8.chunk.js.LICENSE.txt
+var Serverwebpagestemplatepagesstaticjs264714af8chunkjsLICENSEtxt []byte
+
+//go:embed pages/static/js/2.64714af8.chunk.js.map
+var Serverwebpagestemplatepagesstaticjs264714af8chunkjsmap []byte
+
+//go:embed pages/static/js/main.bb243e45.chunk.js
+var Serverwebpagestemplatepagesstaticjsmainbb243e45chunkjs []byte
+
+//go:embed pages/static/js/main.bb243e45.chunk.js.map
+var Serverwebpagestemplatepagesstaticjsmainbb243e45chunkjsmap []byte
+
+//go:embed pages/static/js/runtime-main.f542387e.js
+var Serverwebpagestemplatepagesstaticjsruntimemainf542387ejs []byte
+
+//go:embed pages/static/js/runtime-main.f542387e.js.map
+var Serverwebpagestemplatepagesstaticjsruntimemainf542387ejsmap []byte
 
 //go:embed pages/index.html
 var Indexhtml []byte
-
-//go:embed pages/logo.png
-var Logopng []byte
-
-//go:embed pages/mstile-150x150.png
-var Mstile150x150png []byte
-
-//go:embed pages/site.webmanifest
-var Sitewebmanifest []byte
-
-//go:embed pages/static/js/2.916c2545.chunk.js
-var Staticjs2916c2545chunkjs []byte
-
-//go:embed pages/static/js/2.916c2545.chunk.js.LICENSE.txt
-var Staticjs2916c2545chunkjsLICENSEtxt []byte
-
-//go:embed pages/static/js/2.916c2545.chunk.js.map
-var Staticjs2916c2545chunkjsmap []byte
-
-//go:embed pages/static/js/main.55f380e1.chunk.js
-var Staticjsmain55f380e1chunkjs []byte
-
-//go:embed pages/static/js/main.55f380e1.chunk.js.map
-var Staticjsmain55f380e1chunkjsmap []byte
-
-//go:embed pages/static/js/runtime-main.f542387e.js
-var Staticjsruntimemainf542387ejs []byte
-
-//go:embed pages/static/js/runtime-main.f542387e.js.map
-var Staticjsruntimemainf542387ejsmap []byte

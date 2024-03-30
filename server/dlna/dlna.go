@@ -15,7 +15,6 @@ import (
 	"github.com/anacrolix/log"
 
 	"server/settings"
-	"server/web/pages/template"
 )
 
 var dmsServer *dms.Server
@@ -66,24 +65,9 @@ func Start() {
 		NoTranscode:         true,
 		NoProbe:             true,
 		StallEventSubscribe: false,
-		Icons: []dms.Icon{
-			{
-				Width:    48,
-				Height:   48,
-				Depth:    24,
-				Mimetype: "image/png",
-				Bytes:    template.Dlnaicon48png,
-			},
-			{
-				Width:    120,
-				Height:   120,
-				Depth:    24,
-				Mimetype: "image/png",
-				Bytes:    template.Dlnaicon120png,
-			},
-		},
-		LogHeaders:     settings.BTsets.EnableDebug,
-		NotifyInterval: 30 * time.Second,
+		Icons:               []dms.Icon{},
+		LogHeaders:          settings.BTsets.EnableDebug,
+		NotifyInterval:      30 * time.Second,
 		AllowedIpNets: func() []*net.IPNet {
 			var nets []*net.IPNet
 			_, ipnet, _ := net.ParseCIDR("0.0.0.0/0")

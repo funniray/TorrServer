@@ -102,6 +102,7 @@ func (bt *BTServer) configure(ctx context.Context) {
 	bt.config.IPBlocklist = blocklist
 	bt.config.Bep20 = peerID
 	bt.config.PeerID = utils.PeerIDRandom(peerID)
+	bt.config.NoDefaultPortForwarding = true
 	bt.config.UpnpID = upnpID
 	bt.config.HTTPUserAgent = userAgent
 	bt.config.ExtendedHandshakeClientVersion = cliVers
